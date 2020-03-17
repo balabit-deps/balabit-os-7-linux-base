@@ -1,3 +1,9 @@
+linux-base (4.5ubuntu1.1) bionic; urgency=medium
+
+  * Add linux-base-sgx package with SGX udev rules (LP: #1867820).
+
+ -- Marcelo Henrique Cerri <marcelo.cerri@canonical.com>  Tue, 17 Mar 2020 16:17:43 -0300
+
 linux-base (4.5ubuntu1) artful; urgency=low
 
   * Merge from Debian unstable.  Remaining changes:

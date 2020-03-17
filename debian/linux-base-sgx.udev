@@ -1,0 +1,2 @@
+SUBSYSTEM=="sgx",KERNEL=="sgx",MODE="0666"
+SUBSYSTEM=="sgx",KERNEL=="sgx_prv",GROUP="sgx_prv",MODE="0660"

@@ -15,3 +15,11 @@ Multi-Arch: foreign
 Description: Linux image base package
  This package contains files and support scripts for all Linux
  images.
+
+Package: linux-base-sgx
+Architecture: all
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: Linux image base package for DCAP SGX
+ This package contains files and support scripts for all Linux
+ images with DCAP SGX drivers.
