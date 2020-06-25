@@ -1,3 +1,9 @@
+linux-base (4.5ubuntu1.2) bionic; urgency=medium
+
+  * Update SGX udev rules for version LD_1.33 (LP: #1881338).
+
+ -- Marcelo Henrique Cerri <marcelo.cerri@canonical.com>  Thu, 25 Jun 2020 14:39:07 -0300
+
 linux-base (4.5ubuntu1.1) bionic; urgency=medium
 
   * Add linux-base-sgx package with SGX udev rules (LP: #1867820).
